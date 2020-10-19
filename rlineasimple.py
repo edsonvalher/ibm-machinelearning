@@ -57,6 +57,7 @@ y_pred = regr.predict(train_x)
 #print('Intercept: ', regr.intercept_)
 print('y= ', regr.coef_, 'x= ', regr.intercept_)
 print('The prediction is: ', y_pred[1])
+print('Variance score: %.2f' % regr.score(train_x, train_y))
 
 
 plt.scatter(train.engsize, train.co2,  color='blue')
