@@ -67,4 +67,10 @@ plt.ylabel("Co2")
 plt.show()
 
 
+plt.scatter(cdf.engsize, cdf.co2,  color='blue')
+plt.plot(cdf.engsize, cdf.co2, label="linear")
+plt.xlabel("Engine size")
+plt.ylabel("Co2")
+plt.show()
+
 # ESTE CODIGO obtiene la predicción de c02 para la tupla 10 teniendo en cuenta el tamaño del motor
