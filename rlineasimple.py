@@ -68,7 +68,8 @@ plt.show()
 
 
 plt.scatter(cdf.engsize, cdf.co2,  color='blue')
-plt.plot(cdf.engsize, cdf.co2, label="linear")
+plt.plot(cdf.engsize, cdf.co2, 'ro', label="linear")
+
 plt.xlabel("Engine size")
 plt.ylabel("Co2")
 plt.show()
