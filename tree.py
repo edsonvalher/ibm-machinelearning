@@ -46,7 +46,6 @@ drugTree = DecisionTreeClassifier(criterion="entropy", max_depth=4)
 drugTree.fit(X_trainset, y_trainset)
 
 predTree = drugTree.predict(X_testset)
-
 print("Precisión de los Arboles de Decisión: ",
       metrics.accuracy_score(y_testset, predTree))
 
